@@ -31,6 +31,25 @@
 └── README_EN.md
 ```
 
+## 如何获取 OpenReview HTML
+
+推荐使用 [SingleFile](https://www.getsinglefile.com/) 浏览器插件来保存 review 页面。
+
+它可以把当前网页及其资源一起保存成一个单独的 HTML 文件，这很适合作为 `rebuttal-parse.md` 的输入。
+
+建议流程：
+
+1. 安装 `SingleFile` 浏览器插件
+2. 打开 OpenReview 的论文页面或包含 reviewer comments 的页面
+3. 点击插件按钮，将当前页面保存为单个 `.html` 文件
+4. 把这个 HTML 文件交给 Phase 0 进行解析
+
+这样做的好处是：
+
+- 不容易漏掉动态加载的页面内容
+- 归档后的 HTML 更方便重复分析
+- 后续发给 agent 时只需要一个文件
+
 ## Phase 说明
 
 | Phase | 文件 | 作用 | 典型输入 | 典型输出 |

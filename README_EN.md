@@ -31,6 +31,25 @@ This repository is closer to a "workflow spec + AI skill guide" than a one-click
 └── README_EN.md
 ```
 
+## How To Obtain OpenReview HTML
+
+Use the [SingleFile](https://www.getsinglefile.com/) browser extension to save the review page.
+
+It can save the current web page and its resources into a single HTML file, which makes it a good input format for `rebuttal-parse.md`.
+
+Recommended workflow:
+
+1. Install the `SingleFile` browser extension
+2. Open the OpenReview paper page or the page containing reviewer comments
+3. Click the extension button and save the current page as a single `.html` file
+4. Feed that HTML file into Phase 0 for parsing
+
+Why this helps:
+
+- You are less likely to miss dynamically loaded page content
+- The archived HTML is easier to analyze repeatedly
+- You only need to pass one file to the agent
+
 ## Phase Overview
 
 | Phase | File | Purpose | Typical Input | Typical Output |
